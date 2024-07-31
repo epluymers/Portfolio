@@ -31,6 +31,6 @@ FILE INFORMATION
 ProgramDriver.java
     	Main Program for Front End System
 DBConnection.java
-    	Connection between Front and Back End program, supplied by Professor
+    	Connection between Front and Back End program
 Project Datbase Code.sql
     	PL/SQL Package and Table Modification Code for the Back End System
