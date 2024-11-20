@@ -1,6 +1,8 @@
 {
-  "markers": {
-    "length": 0
-  },
-  "listingsTotal" : 1
+    "markers": [
+        "Ford",
+        "BMW",
+        "Fiat"
+    ],
+    "listingsTotal": 1
 }
