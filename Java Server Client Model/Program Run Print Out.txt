@@ -1,0 +1,423 @@
+epluymer@in-csci-rrpc01:~/Assignment3$ java -jar Assignment3Server.jar
+Online Store is Running
+
+epluymer@in-csci-rrpc02:~/Assignment3$ java -jar Assignment3Client.jar
+Welcome to to Online Store.
+ 1. Login
+ 2. Register for and account
+ 3. Exit
+Please select an opton: 1
+
+Login Menu
+ Please Enter Username: admin
+ Please Enter Password: password
+Admin Menu
+ 1. Browse Items
+ 2. Add Items
+ 3. Browse Users
+ 4. Add Admin Account
+5. Add Customer Account
+ 6. Logout
+Please select an opton: 1
+Sorry There are No Items to Display
+Item Options
+ 1. Delete Item
+ 2. Update Item Quantity
+ 3. Update Item Price
+ 4. Return to Previous Menu
+ Please select an opton: 4
+Returning to Previous Menu
+Admin Menu
+ 1. Browse Items
+ 2. Add Items
+ 3. Browse Users
+ 4. Add Admin Account
+5. Add Customer Account
+ 6. Logout
+Please select an opton: 2
+Add Item
+ Please Enter Item Name: Nintendo
+ Please Enter Price: 300.00
+ Please Enter Description: Game Console
+ Please Enter Quantity: 3
+ Please Enter Type 1 for Product 2 for Service: 1
+Item created returning to menu.Admin Menu
+ 1. Browse Items
+ 2. Add Items
+ 3. Browse Users
+ 4. Add Admin Account
+5. Add Customer Account
+ 6. Logout
+Please select an opton:
+2
+Add Item
+ Please Enter Item Name: PS5
+ Please Enter Price: 499.99
+ Please Enter Description: Game Console
+ Please Enter Quantity: 5
+ Please Enter Type 1 for Product 2 for Service: 1
+Item created returning to menu.Admin Menu
+ 1. Browse Items
+ 2. Add Items
+ 3. Browse Users
+ 4. Add Admin Account
+5. Add Customer Account
+ 6. Logout
+Please select an opton: 2
+Add Item
+ Please Enter Item Name: PlayStation Network
+ Please Enter Price: 15.50
+ Please Enter Description: Monthly Subscription
+ Please Enter Quantity: 12
+ Please Enter Type 1 for Product 2 for Service: 2
+Item created returning to menu.Admin Menu
+ 1. Browse Items
+ 2. Add Items
+ 3. Browse Users
+ 4. Add Admin Account
+5. Add Customer Account
+ 6. Logout
+Please select an opton: 1
+Product Name: Nintendo
+Game Console
+Price $300
+Qty: 3
+Product Name: PS5
+Game Console
+Price $499
+Qty: 5
+Service Name: PlayStation Network
+Monthly Subscription
+Price $15
+Qty: 12
+
+Item Options
+ 1. Delete Item
+ 2. Update Item Quantity
+ 3. Update Item Price
+ 4. Return to Previous Menu
+ Please select an opton: 2
+Update Item Quantity
+ Please Enter Item Name: Nintendo
+Please Enter Updated Quantity: 2
+Item Updated Returning to Menu
+Product Name: Nintendo
+Game Console
+Price $300
+Qty: 2
+Product Name: PS5
+Game Console
+Price $499
+Qty: 5
+Service Name: PlayStation Network
+Monthly Subscription
+Price $15
+Qty: 12
+
+Item Options
+ 1. Delete Item
+ 2. Update Item Quantity
+ 3. Update Item Price
+ 4. Return to Previous Menu
+ Please select an opton: 3
+Update Item Quantity
+ Please Enter Item Name: PS5
+Please Enter Updated Price: 475.99
+Item Updated Returning to Menu
+Product Name: Nintendo
+Game Console
+Price $300
+Qty: 2
+Product Name: PS5
+Game Console
+Price $475
+Qty: 5
+Service Name: PlayStation Network
+Monthly Subscription
+Price $15
+Qty: 12
+
+Item Options
+ 1. Delete Item
+ 2. Update Item Quantity
+ 3. Update Item Price
+ 4. Return to Previous Menu
+ Please select an opton: 1
+Delete Item
+ Please Enter Item Name: Nintendo
+Item Deleted Returning to Menu
+Product Name: PS5
+Game Console
+Price $475
+Qty: 5
+Service Name: PlayStation Network
+Monthly Subscription
+Price $15
+Qty: 12
+
+Item Options
+ 1. Delete Item
+ 2. Update Item Quantity
+ 3. Update Item Price
+ 4. Return to Previous Menu
+ Please select an opton: 4
+Returning to Previous Menu
+Admin Menu
+ 1. Browse Items
+ 2. Add Items
+ 3. Browse Users
+ 4. Add Admin Account
+5. Add Customer Account
+ 6. Logout
+Please select an opton: 3
+Admin User
+admin
+
+User Options
+ 1. Delete User
+2. Return to Previous Menu
+ Please select an opton: 2
+Returning to Previous Menu
+Admin Menu
+ 1. Browse Items
+ 2. Add Items
+ 3. Browse Users
+ 4. Add Admin Account
+5. Add Customer Account
+ 6. Logout
+Please select an opton: 4
+Add Administrator
+ Please Enter Username: Admin2
+ Please Enter Password: password2
+Account created returning to menu.
+Admin Menu
+ 1. Browse Items
+ 2. Add Items
+ 3. Browse Users
+ 4. Add Admin Account
+5. Add Customer Account
+ 6. Logout
+Please select an opton: 5
+Add Customer
+ Please Enter Username: jdoe
+ Please Enter Password: Deer123
+ Please Enter Name: John Doe
+ Please Enter Address: 123 Brook Lane
+ Please Enter Credit Card Number: 526874523652
+Account created returning to menu.Admin Menu
+ 1. Browse Items
+ 2. Add Items
+ 3. Browse Users
+ 4. Add Admin Account
+5. Add Customer Account
+ 6. Logout
+Please select an opton: 3
+Admin User
+admin
+Admin User
+Admin2
+Customer
+jdoe
+
+User Options
+ 1. Delete User
+2. Return to Previous Menu
+ Please select an opton: 1
+Delete User
+ Please Enter User Name: Admin2
+User Deleted Returning to Menu
+Admin User
+admin
+Customer
+jdoe
+
+User Options
+ 1. Delete User
+2. Return to Previous Menu
+ Please select an opton: 2
+ Returning to Previous Menu
+Admin Menu
+ 1. Browse Items
+ 2. Add Items
+ 3. Browse Users
+ 4. Add Admin Account
+5. Add Customer Account
+ 6. Logout
+Please select an opton: 6
+Logging Out
+Welcome to to Online Store.
+ 1. Login
+ 2. Register for and account
+ 3. Exit
+Please select an opton: 2
+Registration Menu
+ Please Enter Username: JaneD
+ Please Enter Password: passw0rd
+ Please Enter Your Name: Jane Doe
+ Please Enter Your Address: 76 Woodland Terrace
+ Please Enter Your Credit Card Number: 513246854856
+Account created please login from main menu.Welcome to to Online Store.
+ 1. Login
+ 2. Register for and account
+ 3. Exit
+Please select an opton: 1
+
+Login Menu
+ Please Enter Username: JaneD
+ Please Enter Password: passwOrd
+Sorry your username and password are incorrect please try again or type 'e' to return to main menu.
+
+Login Menu
+ Please Enter Username: JaneD
+ Please Enter Password: passw0rd
+Customer Menu
+ 1. Browse Items
+ 2. Clear Shopping Cart
+ 3. Check Out
+ 4. Logout
+Please select an opton: 1
+Product Name: PS5
+Game Console
+Price $475
+Qty: 5
+Service Name: PlayStation Network
+Monthly Subscription
+Price $15
+Qty: 12
+
+Item Options
+ 1. Add Item to Cart 2. Return to Previous Menu
+ Please select an opton: 1
+Add To Cart
+ Please Enter Item Name: PS5
+Add To Cart
+ Please Enter Item Qty: 1
+Item Added to Your Cart Returning to Menu
+Product Name: PS5
+Game Console
+Price $475
+Qty: 4
+Service Name: PlayStation Network
+Monthly Subscription
+Price $15
+Qty: 12
+
+Item Options
+ 1. Add Item to Cart 2. Return to Previous Menu
+ Please select an opton: 1
+Add To Cart
+ Please Enter Item Name: PlayStation Network
+Add To Cart
+ Please Enter Item Qty: 2
+Item Added to Your Cart Returning to Menu
+Product Name: PS5
+Game Console
+Price $475
+Qty: 4
+Service Name: PlayStation Network
+Monthly Subscription
+Price $15
+Qty: 10
+
+Item Options
+ 1. Add Item to Cart 2. Return to Previous Menu
+ Please select an opton: 2
+Returning to Previous Menu
+Customer Menu
+ 1. Browse Items
+ 2. Clear Shopping Cart
+ 3. Check Out
+ 4. Logout
+Please select an opton: 3
+Checking out your total purchase was $505
+Customer Menu
+ 1. Browse Items
+ 2. Clear Shopping Cart
+ 3. Check Out
+ 4. Logout
+Please select an opton: 4
+Logging Out
+Welcome to to Online Store.
+ 1. Login
+ 2. Register for and account
+ 3. Exit
+Please select an opton: 1
+
+Login Menu
+ Please Enter Username: jdoe
+ Please Enter Password: Deer123
+Customer Menu
+ 1. Browse Items
+ 2. Clear Shopping Cart
+ 3. Check Out
+ 4. Logout
+Please select an opton: 1
+Product Name: PS5
+Game Console
+Price $475
+Qty: 4
+Service Name: PlayStation Network
+Monthly Subscription
+Price $15
+Qty: 10
+
+Item Options
+ 1. Add Item to Cart 2. Return to Previous Menu
+ Please select an opton: 1
+Add To Cart
+ Please Enter Item Name: PS5
+Add To Cart
+ Please Enter Item Qty: 2
+Item Added to Your Cart Returning to Menu
+Product Name: PS5
+Game Console
+Price $475
+Qty: 2
+Service Name: PlayStation Network
+Monthly Subscription
+Price $15
+Qty: 10
+
+Item Options
+ 1. Add Item to Cart 2. Return to Previous Menu
+ Please select an opton: 2
+Returning to Previous Menu
+Customer Menu
+ 1. Browse Items
+ 2. Clear Shopping Cart
+ 3. Check Out
+ 4. Logout
+Please select an opton: 2
+Customer Menu
+ 1. Browse Items
+ 2. Clear Shopping Cart
+ 3. Check Out
+ 4. Logout
+Please select an opton: 1
+Product Name: PS5
+Game Console
+Price $475
+Qty: 4
+Service Name: PlayStation Network
+Monthly Subscription
+Price $15
+Qty: 10
+
+Item Options
+ 1. Add Item to Cart 2. Return to Previous Menu
+ Please select an opton: 2
+Returning to Previous Menu
+Customer Menu
+ 1. Browse Items
+ 2. Clear Shopping Cart
+ 3. Check Out
+ 4. Logout
+Please select an opton: 4
+Logging Out
+Welcome to to Online Store.
+ 1. Login
+ 2. Register for and account
+ 3. Exit
+Please select an opton: 3
+Exiting Online Store
+epluymer@in-csci-rrpc02:~/Assignment3$

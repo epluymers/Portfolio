@@ -1,0 +1,53 @@
+//==============================================================================
+/**
+ * File Name:   graphExample.txt
+ *
+ * Written By: Elicia Pluymers
+ * 2023 CS Capstone Project AiAlgorithms
+ **/
+//==============================================================================
+
+/*
+ * INSTRUCTIONS:
+ * All line items must be separated by spaces. NO tabs or the parser will fail.
+ * Parser will ignore all lines noted out using // or /* */ for multi line comments
+ * 
+ * Connection Line: [Connection:] [Bidirectional]or[Directed]
+ * Required
+ * 
+ * Node Line: [Node:] <Node ID> <Heuristic> <Node Name>
+ * If heuristic is not needed for your chosen algorithm, please enter a place holder number, it is a required field
+ * 
+ * Link Line: [Link:] <From Node> <To Node> <Cost>
+ * If cost is not needed for your chosen algorithm, please enter a place holder number, it is a required field
+ * 
+ * Start Line: [Start:] <Start Node>
+ * Required
+ * 
+ * End Line: [End:] <End Node>
+ * Required
+ *
+ * Depth Line: [DepthLimit:] <Depth>
+ * Not Required - Use this only if using an algorithm that requres it
+ */
+
+Connection: Bidirectional //or Directed
+Node: 1 50 Indianapolis
+Node: 2 40 Greenwood
+Node: 3 60 Carmel
+Node: 4 20 Mooresville
+Node: 5 0 Muncie
+Node: 6 10 Bloomington
+Node: 7 80 West Lafayette
+Node: 8 70 Fort Wayne
+Link: 1 8 25
+Link: 1 2 15
+Link: 2 4 30
+Link: 4 5 60
+Link: 2 6 50
+Link: 5 6 50
+Link: 7 3 60
+Link: 7 1 50
+Start: 7
+End: 5
+DepthLimit: 4
